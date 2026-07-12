@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Royal Restaurant - Portfolio Sample</title>
+<style>
+  body { font-family: 'Georgia', serif; margin: 0; background: #FFFDF7; color: #333; }
+  
+  /* PORTFOLIO BANNER - GOLD */
+  .portfolio-banner { background: #D4AF37; color: #000; text-align: center; padding: 12px; font-weight: bold; font-size: 16px; letter-spacing: 1px; }
+  
+  /* HEADER - ROYAL MAROON */
+  .header { background: linear-gradient(135deg, #800020, #A52A2A); color: white; text-align: center; padding: 90px 20px; }
+  .logo { font-size: 70px; margin-bottom: 10px; }
+  .header h1 { font-size: 45px; margin: 0; color: #D4AF37; font-family: 'Times New Roman', serif; }
+  .header p { font-size: 20px; margin: 10px 0 30px 0; }
+  .btn { background: #D4AF37; color: #800020; padding: 16px 35px; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 18px; margin: 10px; display: inline-block; border: 2px solid #D4AF37; }
+  .btn:hover { background: transparent; color: #D4AF37; }
+  .btn-green { background: #25D366; color: white; border: 2px solid #25D366; }
+  .btn-green:hover { background: transparent; color: #25D366; }
+
+  .section { padding: 60px 20px; max-width: 1100px; margin: auto; }
+  .menu { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+  .card { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 6px 15px rgba(128,0,32,0.1); text-align: center; border-top: 6px solid #D4AF37; }
+  .card h3 { color: #800020; margin: 10px 0; font-size: 24px; }
+  .price { font-size: 26px; font-weight: bold; color: #D4AF37; margin-top: 10px; }
+  .footer { background: #1a1a1a; color: #D4AF37; text-align: center; padding: 30px; }
+  
+  /* FLOATING WHATSAPP */
+  .float-btn { position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; padding: 18px 22px; border-radius: 50px; font-size: 18px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+</style>
+</head>
+<body>
+
+<!-- 1. PORTFOLIO BANNER -->
+<div class="portfolio-banner">
+  👑 THIS IS A PORTFOLIO SAMPLE WEBSITE MADE BY AFSHA 👑
+</div>
+
+<!-- 2. HEADER WITH ROYAL LOGO -->
+<div class="header">
+  <div class="logo">👑🍽️</div>
+  <h1>Royal Restaurant</h1>
+  <p>✨ Taste of Royalty Since 1995 | Multi-Cuisine & Pure Veg ✨</p>
+  <a href="https://wa.me/919876543210?text=Hello%20Royal%20Restaurant,%20I%20want%20to%20book%20a%20table" class="btn btn-green">📞 Book Table on WhatsApp</a>
+  <a href="#menu" class="btn">🍴 View Menu</a>
+</div>
+
+<!-- 3. MENU SECTION - NO PHOTO -->
+<div class="section" id="menu">
+  <h2 style="text-align:center; font-size:36px; color:#800020;">👨‍🍳 Our Special Dishes 👨‍🍳</h2>
+  <div class="menu">
+    <div class="card">
+      <h3>🍛 Royal Paneer Butter Masala</h3>
+      <p>Creamy gravy with royal spices & butter</p>
+      <p class="price">₹349</p>
+    </div>
+    <div class="card">
+      <h3>🍗 Hyderabadi Veg Biryani</h3>
+      <p>Basmati rice cooked with 15 spices + raita</p>
+      <p class="price">₹299</p>
+    </div>
+    <div class="card">
+      <h3>🍕 Tandoori Paneer Pizza</h3>
+      <p>Cheese burst with Indian tadka & olives</p>
+      <p class="price">₹399</p>
+    </div>
+    <div class="card">
+      <h3>🍜 Veg Hakka Noodles</h3>
+      <p>Wok tossed with fresh vegetables</p>
+      <p class="price">₹249</p>
+    </div>
+  </div>
+</div>
+
+<!-- 4. ABOUT -->
+<div class="section" style="background:white; border-radius:15px; border:2px solid #D4AF37;">
+  <h2 style="text-align:center; font-size:32px; color:#800020;">🌟 Why Dine With Us? 🌟</h2>
+  <p style="text-align:center; font-size:18px;">✅ <b>20+ Years</b> of Royal Taste & Legacy</p>
+  <p style="text-align:center; font-size:18px;">✅ <b>100% Pure Veg</b> & Hygienic Kitchen</p>
+  <p style="text-align:center; font-size:18px;">✅ <b>Free Home Delivery</b> within 5KM 🚚</p>
+  <p style="text-align:center; font-size:18px;">✅ <b>Party Hall</b> Booking Available for Birthdays 🎉</p>
+</div>
+
+<!-- 5. FOOTER -->
+<div class="footer">
+  <p>📍 Location: Delhi, India | 📞 Call: +91-98765-43210</p>
+  <p>⏰ Timings: 11AM to 11PM | All Days Open</p>
+  <p>Made with ❤️ & Royal Taste | Portfolio Website by Afsha 2026</p>
+</div>
+
+<!-- 6. FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/919876543210?text=Hello%20Royal%20Restaurant,%20I%20want%20to%20order%20food" class="float-btn">💬 Order Now</a>
+
+</body>
+  </html>
